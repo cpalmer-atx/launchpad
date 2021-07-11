@@ -18,3 +18,5 @@ const UserSchema = new mongoose.Schema({
         required: Date.now
     },
 });
+
+const User = module.exports = mongoose.model('User', UserSchema); 
