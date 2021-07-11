@@ -1,0 +1,27 @@
+{
+  "name": "launchpad",
+  "version": "1.0.0",
+  "description": "A boilerplate express server to spin up new projects faster.",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpalmer-atx/launchpad.git"
+  },
+  "author": "Chad Palmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpalmer-atx/launchpad/issues"
+  },
+  "homepage": "https://github.com/cpalmer-atx/launchpad#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
