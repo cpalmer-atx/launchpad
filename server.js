@@ -8,9 +8,12 @@ const app = express();
 // *** UNCOMMENT ONCE DB CONFIGURED ***
 // connectDB();
 
+const users = require('./routes/users');
+
 app.use(express.json());
 
-app.use('/api/users', require('./routes/api/users'));
+app.use('/api/users', users);
+// app.use('/api/users', require('./routes/api/users'));
 
 const PORT = process.env.PORT || 5000;
 
