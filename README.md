@@ -60,6 +60,6 @@ First, a React application was initialized with 'create-react-app' in a new 'cli
 
 | Reference      | Description |
 | ----------- | ----------- |
-| [Brad Traversy](www.traversymedia.com)      | Arguably once of the best web dev resources on the internet.|
-| [Nodemon](nodemon.io)   | Official Docs|
+| [Brad Traversy](https://www.traversymedia.com)      | Arguably once of the best web dev resources on the internet.|
+| [Nodemon](https://nodemon.io)   | Official Docs|
 | [Concurrently](https://github.com/kimmobrunfeldt/concurrently)   | Official Docs|
