@@ -3,10 +3,30 @@
 
 
 ## <br>Quick launch:
-Clone repo: 
+Clone repo and push to your own: 
 
 ```
-$ https://github.com/cpalmer-atx/launchpad.git
+$ git clone https://github.com/cpalmer-atx/launchpad.git
+```
+
+```
+$ cd launchpad
+```
+
+```
+$ git remote remove origin
+```
+
+```
+$ git remote add origin https://github.com/<GITHUB_USERNAME>/<YOUR_REPO_NAME>.git
+```
+
+```
+$ git branch -M main
+```
+
+```
+$ git push -u origin main
 ```
 
 <br>Install packages:
