@@ -3,10 +3,30 @@
 
 
 ## <br>Quick launch:
-Clone repo: 
+Clone repo and push to your own: 
 
 ```
-$ https://github.com/cpalmer-atx/launchpad.git
+$ git clone https://github.com/cpalmer-atx/launchpad.git
+```
+
+```
+$ cd launchpad
+```
+
+```
+$ git remote remove origin
+```
+
+```
+$ git remote add origin https://github.com/<GITHUB_USERNAME>/<YOUR_REPO_NAME>.git
+```
+
+```
+$ git branch -M main
+```
+
+```
+$ git push -u origin main
 ```
 
 <br>Install packages:
@@ -54,6 +74,6 @@ First, a React application was initialized with 'create-react-app' in a new 'cli
 
 | Reference      | Description |
 | ----------- | ----------- |
-| [Brad Traversy](www.traversymedia.com)      | Arguably once of the best web dev resources on the internet.|
-| [Nodemon](nodemon.io)   | Official Docs|
+| [Brad Traversy](https://www.traversymedia.com)      | Arguably once of the best web dev resources on the internet.|
+| [Nodemon](https://nodemon.io)   | Official Docs|
 | [Concurrently](https://github.com/kimmobrunfeldt/concurrently)   | Official Docs|
