@@ -29,12 +29,6 @@ Install a client folder with a default React App already in it:
 $ npx create-react-app client
 ```
 
-Install 'concurrently' to run server/client with one script:
-
-```
-$ npm i concurrently
-```
-
 In root package.json, add the following:
 
 ```
